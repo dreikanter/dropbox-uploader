@@ -1,0 +1,3 @@
+# Sample crontab to run Dropbox uploader each day at 9 PM
+
+00 21 * * * dbup /private-area/dropbox.tokens /directory/to/backup
